@@ -76,3 +76,6 @@ jspm_packages/
 
 # Serverless directories
 .serverless
+
+# Nested git repositories
+front/moz-todo-react/
