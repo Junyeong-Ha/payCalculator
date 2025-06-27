@@ -1,11 +1,23 @@
 {
-  "name": "front",
+  "name": "pay-calculator-front",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "급여계산기 프론트엔드",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "vite"
   },
+  "keywords": [
+    "payroll",
+    "calculator",
+    "web"
+  ],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "vite": "^7.0.0"
+  }
 }
